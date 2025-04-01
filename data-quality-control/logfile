@@ -30,3 +30,12 @@ ERROR:pipeline.rules:orcid api failure for XXX;XXX
 ERROR:pipeline.rules:orcid api failure for XXX;XXX
 ERROR:pipeline.rules:orcid api failure for XXX;XXX
 ERROR:pipeline.rules:orcid api failure for XXX;XXX
+ERROR:py_data_rules.rule_engine:rule evaluation failed for source_mat_id with exception KeyError: 'comm_samp'
+ERROR:py_data_rules.rule_engine:rule evaluation failed for comm_samp with exception KeyError: 'comm_samp'
+WARNING:py_data_rules.rule_factory:excess columns in table sm: {'source_mat_id_orig'}
+WARNING:py_data_rules.rule_factory:excess columns in table so: {'data_contact_email', 'data_owner_edmoid', 'data_owner'}
+WARNING:py_data_rules.rule_factory:missing columns in table ss: {'comm_samp'}
+WARNING:py_data_rules.rule_factory:excess columns in table ss: {'meio', 'seq_batch'}
+WARNING:py_data_rules.rule_factory:excess columns in table wm: {'source_mat_id_orig'}
+WARNING:py_data_rules.rule_factory:excess columns in table wo: {'data_contact_email', 'data_owner_edmoid', 'data_owner'}
+WARNING:py_data_rules.rule_factory:excess columns in table ws: {'seq_batch'}
