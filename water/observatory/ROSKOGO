@@ -1,0 +1,82 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> . 
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix sosa: <http://www.w3.org/ns/sosa/> . 
+@prefix ssn: <http://www.w3.org/ns/ssn/> . 
+@prefix qudt: <http://qudt.org/schema/qudt/> . 
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mr: <http://marineregions.org/ns/ontology#> .
+@prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
+@prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
+@prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
+
+@base <http://data.emobon.embrc.eu/observatory-roskogo-crate/water/observatory/ROSKOGO> . 
+
+<> 
+    a emobon-core:Observatory ; 
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#water> ;
+    emobon-core:observatoryId 'ROSKOGO'^^xsd:string ;
+    emobon-core:observatorySampleId 'ROSKOGO Wa'^^xsd:string ; 
+
+    dct:isPartOf [
+        a schema:Project ;
+        schema:name 'EMOBON'^^xsd:string ;
+        schema:description "The EMO BON project"^^xsd:string ;
+        emobon-core:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
+    ] ;
+    emobon-core:siteInfo 'The SOMLIT-Astan time-series station is considered as representative of the French Western English Channel with an intense tidal mixing and winds preventing summer stratification. Long term monitoring of the hydrology (15 parameters) and phytoplankton (incuding DNA collection) has been initiated since 2000. These monitorings are operated in the frame of national monitoring programs : the SOMLIT - Service d’Observation en Milieu LITtoral – (http://somlit.epoc.u-bordeaux1.fr/) and the PHYTOBS - PHYtoplankton OBServatory (since 2018 - https://www.ir-ilico.fr/Les-reseaux-elementaires/Fiches-d-identite-des-reseaux-elementaires/PHYTOBS), respectively. Samples are collected bi-monthly during high neap tide at surface (1 m depth). Samples (0.2-3 µm and > 3µm) for metagenomics and metatranscriptomics are sampled since May 2018. Samples for viromes (DNA and RNA viruses) and for metagenomics and metatranscriptomics of micro- (> 20 µm) and mesoplankton (>200 µm) are sampled since June 2020. This site participated to all OSD events since 2014. No HAB events so far. The main annual phytoplankton bloom (dominated by the diatom Guinardia delicatula) occurs in May-June.'^^xsd:string ;
+    emobon-core:broadBiome  'marine%20biome%20%5BENVO:00000447%5D'^^xsd:anyURI,  'marine%20pelagic%20biome%20%5BENVO:01000023%5D'^^xsd:anyURI;
+    emobon-core:localBiome 'marine%20pelagic%20feature%20%5BENVO:01000044%5D'^^xsd:anyURI, 'marine%20water%20body%20%5BENVO:00001999%5D'^^xsd:anyURI, 'costal%20water%20body%20%5BENVO:02000049%5D'^^xsd:anyURI;
+    emobon-core:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
+    emobon-core:marineRegionName 'English Channel'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/2389'^^xsd:anyURI ;
+    emobon-core:marineRegionName 'French part of the English Channel'^^xsd:string ;
+    emobon-core:marineRegion 'http://marineregions.org/mrgid/25214'^^xsd:anyURI ;
+    emobon-core:geoLocation [ 
+        a sf:Point ; 
+        geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (48.771667 -3.968333)" ;
+    ]; 
+    schema:contactPoint [ 
+        a emobon-core:Organization ;
+        schema:legalName 'Station Biologique de Roscoff'^^xsd:string ;
+        emobon-core:edmoId 'https://edmo.seadatanet.org/report/521'^^xsd:anyURI ;
+        schema:address [
+            a schema:PostalAddress ;
+            schema:addressCountry 'France'^^xsd:string ; 
+        schema:member [
+            a schema:Person ;
+            schema:name 'Fabienne Rigaut-Jalabert'^^xsd:string ;
+            schema:email 'fabienne.jalabert@sb-roscoff.fr'^^xsd:string ;
+        ]
+        ] ; 
+    ] ;
+    emobon-core:waterColumnDepth [
+        a qudt:QuantityValue ;
+            qudt:numericValue '60.0'^^xsd:double ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ;
+        ] ;
+    emobon-core:originCountry 'France'^^xsd:string ;
+    emobon-core:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51662'^^xsd:anyURI ;
+    emobon-core:hasMixsPackage 'water'^^xsd:string ; 
+.
+
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912>
+    mr:contains <http://marineregions.org/mrgid/> ;
+.
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/2389>
+    mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/25214> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ; 
+.
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/25214>
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/2389> ;
+.
