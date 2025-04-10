@@ -402,7 +402,7 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-04-10T12:59:53+00:00" ;
+    schema1:datePublished "2025-04-10T13:05:25+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory ROSKOGO" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
@@ -2445,6 +2445,29 @@
             qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ] ;
     schema:additionalType core_vocab:fieldSample,
         "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/water/sample/EMOBON_ROSKOGO_Wa_365> a prov:Entity,
+        sosa:Sample ;
+    dct:description ""^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ] ;
+    prov:wasGeneratedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/water/sample/EMOBON_ROSKOGO_Wa_365> ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/water/sampling-event/> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
+    emobon-sampling:environmentMaterial ""^^xsd:anyURI ;
+    emobon-sampling:failureComment ""^^xsd:string ;
+    emobon-sampling:filtrationTime [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ] ;
+    emobon-sampling:investigationType ""^^xsd:string ;
+    emobon-sampling:origEmobonId ""^^xsd:string ;
+    emobon-sampling:taxonomicID ""^^xsd:anyURI ;
+    emobon-sampling:taxonomicName ""^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/water/sample/EMOBON_ROSKOGO_Wa_37> a prov:Entity,
         sosa:Sample ;
