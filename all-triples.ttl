@@ -32,6 +32,30 @@
             dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
     schema:measurementTechnique "deduced from temperature measured at Estacade on 1/9/2021"^^xsd:string .
 
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_10#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.522e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "SBE 19plus, Sea-Bird inc. sensor"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_10#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] .
+
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_11#sea_surf_temp> a csvw:Cell,
         sosa:Observation,
         schema:Observation ;
@@ -83,6 +107,28 @@
             rdfs:label "sea_surf_temp"^^xsd:string ;
             dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
     schema:measurementTechnique "deduced from temperature measured at Estacade on 1/9/2021"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_146#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_146> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_15#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_15> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_16#sea_surf_temp> a csvw:Cell,
         sosa:Observation,
@@ -149,6 +195,17 @@
             dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
     schema:measurementTechnique "deduced from temperature measured at Estacade on 1/9/2021"^^xsd:string .
 
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_20#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_20> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] .
+
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_3#sea_surf_temp> a csvw:Cell,
         sosa:Observation,
         schema:Observation ;
@@ -174,6 +231,17 @@
             rdfs:label "sea_surf_temp"^^xsd:string ;
             dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
     schema:measurementTechnique "deduced from temperature measured at Estacade on 1/9/2021"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_5#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_5> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observation/EMOBON_ROSKOGO_So_6#sea_surf_salinity> a csvw:Cell,
         sosa:Observation,
@@ -334,7 +402,7 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-04-10T12:37:50+00:00" ;
+    schema1:datePublished "2025-04-10T12:53:14+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory ROSKOGO" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
@@ -522,151 +590,6 @@
     schema1:encodingFormat "text/csv" ;
     schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
         "https://rs.tdwg.org/terms/Event" .
-
-<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> a prov:Entity,
-        sosa:Sample ;
-    dct:description "EMOBON mimarks-specimen sediment sample from station ROSKOGO collected on 2021-09-23 community collected macro"^^xsd:string ;
-    prov:wasAssociatedWith [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
-            schema:name "Houbin, Daguin, Comtet"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
-            schema:name "Céline Houbin"^^xsd:string ] ;
-    prov:wasGeneratedBy [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            prov:startedAtTime "2021-09-23"^^xsd:date ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
-                    schema:name "Céline Houbin"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> ;
-            emobon-sampling:storageLoc "SBR YD101.2 fridge R10"^^xsd:string ;
-            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
-                    qudt:numericValue 4e+00 ;
-                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
-    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_210923> ;
-    emobon-sampling:bioCommunity ""^^xsd:string ;
-    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
-    emobon-sampling:failure true ;
-    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
-    emobon-sampling:longStorage true ;
-    emobon-sampling:origEmobonId "EMOBON ROSKOGO So210923 Macro blank"^^xsd:string ;
-    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
-    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
-    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
-    schema:additionalType core_vocab:blankSample,
-        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
-
-<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_15> a prov:Entity,
-        sosa:Sample ;
-    dct:description "EMOBON mimarks-specimen sediment sample from station ROSKOGO collected on 2021-11-19 community collected meio"^^xsd:string ;
-    prov:wasAssociatedWith [ a prov:Person,
-                schema:Person ;
-            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-    prov:wasGeneratedBy [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            prov:startedAtTime "2021-11-19"^^xsd:date ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_15> ;
-            emobon-sampling:storageLoc "SBR YD101.1 C27"^^xsd:string ;
-            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
-                    qudt:numericValue -2e+01 ;
-                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
-    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_211119> ;
-    emobon-sampling:bioCommunity ""^^xsd:string ;
-    emobon-sampling:environmentMaterial "swab"^^xsd:anyURI ;
-    emobon-sampling:failure true ;
-    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
-    emobon-sampling:longStorage true ;
-    emobon-sampling:origEmobonId "EMOBON ROSKOGO So211119 meio blank"^^xsd:string ;
-    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
-    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
-    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
-    schema:additionalType core_vocab:blankSample,
-        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
-
-<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_20> a prov:Entity,
-        sosa:Sample ;
-    dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-11-19 community collected micro"^^xsd:string ;
-    prov:wasAssociatedWith [ a prov:Person,
-                schema:Person ;
-            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-    prov:wasGeneratedBy [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            prov:startedAtTime "2021-11-19"^^xsd:date ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_20> ;
-            emobon-sampling:storageLoc "SBR YD001 freezer 17"^^xsd:string ;
-            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
-                    qudt:numericValue -8e+01 ;
-                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
-    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_211119> ;
-    emobon-sampling:bioCommunity ""^^xsd:string ;
-    emobon-sampling:environmentMaterial "swab"^^xsd:anyURI ;
-    emobon-sampling:failure true ;
-    emobon-sampling:investigationType "metagenome"^^xsd:string ;
-    emobon-sampling:longStorage true ;
-    emobon-sampling:origEmobonId "EMOBON ROSKOGO So211119 micro blank"^^xsd:string ;
-    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
-    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
-    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
-    schema:additionalType core_vocab:blankSample,
-        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
-
-<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_5> a prov:Entity,
-        sosa:Sample ;
-    dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-08-26 community collected micro"^^xsd:string ;
-    prov:wasAssociatedWith [ a prov:Person,
-                schema:Person ;
-            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-    prov:wasGeneratedBy [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            prov:startedAtTime "2021-08-26"^^xsd:date ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
-                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_5> ;
-            emobon-sampling:storageLoc "SBR YD001 freezer 17"^^xsd:string ;
-            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
-                    qudt:numericValue -8e+01 ;
-                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
-    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_210826> ;
-    emobon-sampling:bioCommunity ""^^xsd:string ;
-    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
-    emobon-sampling:failure true ;
-    emobon-sampling:investigationType "metagenome"^^xsd:string ;
-    emobon-sampling:longStorage true ;
-    emobon-sampling:origEmobonId "EMOBON ROSKOGO So210826 micro blank"^^xsd:string ;
-    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
-    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
-    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
-    schema:additionalType core_vocab:blankSample,
-        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/water/sample/EMOBON_ROSKOGO_Wa_1> a prov:Entity,
         sosa:Sample ;
@@ -3483,6 +3406,81 @@
     schema:additionalType core_vocab:fieldSample,
         "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_146> a prov:Entity,
+        sosa:Sample ;
+    dct:description ""^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2025-01-17"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2025-01-17"^^xsd:date ;
+                    prov:startedAtTime "2025-01-13"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:wasAssociatedWith [ a prov:Person,
+                                        schema:Person ;
+                                    schema:name ""^^xsd:string ] ;
+                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_146> ;
+                            emobon-sampling:storageLoc ""^^xsd:string ] ] ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
+    emobon-sampling:environmentMaterial ""^^xsd:anyURI ;
+    emobon-sampling:failureComment ""^^xsd:string ;
+    emobon-sampling:investigationType ""^^xsd:string ;
+    emobon-sampling:origEmobonId "EMOBON ROSKOGO So240605 meio blank"^^xsd:string ;
+    emobon-sampling:taxonomicID ""^^xsd:anyURI ;
+    emobon-sampling:taxonomicName ""^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_15> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station ROSKOGO collected on 2021-11-19 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-11-19"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_15> ;
+            emobon-sampling:storageLoc "SBR YD101.1 C27"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_211119> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "swab"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMOBON ROSKOGO So211119 meio blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:blankSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_16> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-11-19 community collected micro"^^xsd:string ;
@@ -3741,6 +3739,42 @@
     schema:additionalType core_vocab:fieldSample,
         "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_20> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-11-19 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-11-19"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_20> ;
+            emobon-sampling:storageLoc "SBR YD001 freezer 17"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_211119> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "swab"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMOBON ROSKOGO So211119 micro blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:blankSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_3> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-08-26 community collected micro"^^xsd:string ;
@@ -3819,6 +3853,42 @@
     schema:additionalType core_vocab:fieldSample,
         "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_5> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station ROSKOGO collected on 2021-08-26 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Daguin; Thiebaut; Comtet"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+            schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-08-26"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0003-4665-6411"^^xsd:anyURI ;
+                    schema:name "Claire Daguin-Thiebaut"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_5> ;
+            emobon-sampling:storageLoc "SBR YD001 freezer 17"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_210826> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMOBON ROSKOGO So210826 micro blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:blankSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/observatory/ROSKOGO> a emobon-core:Observatory ;
     dct:isPartOf [ a schema:Project ;
             emobon-core:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
@@ -3854,6 +3924,43 @@
                             schema:email "fabienne.jalabert@sb-roscoff.fr"^^xsd:string ;
                             schema:name "Fabienne Rigaut-Jalabert"^^xsd:string ] ] ;
             schema:legalName "Station Biologique de Roscoff"^^xsd:string ] .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station ROSKOGO collected on 2021-09-23 community collected macro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
+            schema:name "Houbin, Daguin, Comtet"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
+            schema:name "Céline Houbin"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-09-23"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-4572-3371"^^xsd:anyURI ;
+                    schema:name "Céline Houbin"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_10> ;
+            emobon-sampling:storageLoc "SBR YD101.2 fridge R10"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue 4e+00 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_210923> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMOBON ROSKOGO So210923 Macro blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:blankSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_6> a prov:Entity,
         sosa:Sample ;
