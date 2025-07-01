@@ -1227,7 +1227,7 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-06-13T08:41:21+00:00" ;
+    schema1:datePublished "2025-07-01T02:22:29+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory ROSKOGO" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/all-triples.ttl>,
@@ -1419,6 +1419,26 @@
     schema1:encodingFormat "text/csv" ;
     schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
         "https://rs.tdwg.org/terms/Event" .
+
+<http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_204> a prov:Entity,
+        sosa:Sample ;
+    dct:description ""^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ] ;
+    prov:wasGeneratedBy <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sample/EMOBON_ROSKOGO_So_204> ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
+    emobon-sampling:environmentMaterial ""^^xsd:anyURI ;
+    emobon-sampling:failureComment ""^^xsd:string ;
+    emobon-sampling:investigationType ""^^xsd:string ;
+    emobon-sampling:origEmobonId ""^^xsd:string ;
+    emobon-sampling:taxonomicID ""^^xsd:anyURI ;
+    emobon-sampling:taxonomicName ""^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-roskogo-crate/sediment/sampling-event/ROSKOGO_So_220929> a prov:Activity,
         sosa:Sampling ;
